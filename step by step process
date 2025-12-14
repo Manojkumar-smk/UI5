@@ -1,0 +1,200 @@
+
+---
+
+## Step 1–5: Getting Started
+
+### Step 1: Hello World
+- Create a simple UI5 app
+- Display static text using `sap.m.Text`
+
+### Step 2: Bootstrap UI5
+- Load SAPUI5 via `index.html`
+- Define root view
+
+### Step 3: MVC Concept
+- Separate View and Controller
+- Introduce XML Views
+
+### Step 4: XML View
+- Create first XML view
+- Bind it to a controller
+
+### Step 5: Controllers
+- Add controller logic
+- Understand controller lifecycle
+
+---
+
+## Step 6–9: Models & Component
+
+### Step 6: Models
+- Introduce model concept
+- Bind data to UI
+
+### Step 7: JSON Model
+- Create `data.json`
+- Load JSONModel
+- Bind model data to controls
+
+### Step 8: Resource Model (i18n)
+- Externalize texts
+- Use `i18n.properties`
+- Bind texts using `{i18n>key}`
+
+### Step 9: Component Configuration
+- Create `Component.js`
+- Initialize models globally
+- Bootstrap app via component
+
+---
+
+## Step 10–14: Descriptor & UI Basics
+
+### Step 10: Descriptor for Applications
+- Understand `manifest.json`
+- Define models, rootView, dependencies
+
+### Step 11: Pages & Panels
+- Use `sap.m.Page`
+- Group content with `sap.m.Panel`
+
+### Step 12: Buttons & Events
+- Handle user interaction
+- Event binding in controllers
+
+### Step 13: Margins & Paddings
+- Use SAP utility CSS classes
+- Avoid custom spacing CSS
+
+### Step 14: Custom CSS & Themes
+- Add `style.css`
+- Load CSS via `manifest.json`
+- Use theme parameters
+
+---
+
+## Step 15–18: Reuse & UI Controls
+
+### Step 15: Nested Views
+- Embed views inside views
+- Reusable UI blocks
+
+### Step 16: Dialogs & Fragments
+- Create XML fragments
+- Lazy-load dialogs
+
+### Step 17: Fragment Callbacks
+- Handle fragment events in controller
+- Use `.` prefix for callbacks
+
+### Step 18: Icons
+- Use SAP icon pool
+- Icon fonts instead of images
+
+---
+
+## Step 19–22: Data Binding & Formatting
+
+### Step 19: Aggregation Binding
+- Bind lists and tables
+- Use templates
+- Absolute vs relative binding
+
+### Step 20: Data Types
+- Use UI5 data types
+- Formatting & parsing
+- Locale-aware values
+
+### Step 21: Expression Binding
+- Inline logic in XML
+- Conditional UI behavior
+
+### Step 22: Custom Formatters
+- Create formatter functions
+- Reuse formatters
+- Formatter vs data type
+
+---
+
+## Step 23–24: Filtering & Sorting
+
+### Step 23: Filtering
+- Use `sap.ui.model.Filter`
+- Client-side vs server-side filtering
+
+### Step 24: Sorting & Grouping
+- Use `sap.ui.model.Sorter`
+- Multiple sorters
+- Grouped list headers
+
+---
+
+## Step 25–29: Search & Advanced Topics
+- Search with filters
+- Combined filtering and sorting
+- Performance considerations
+
+---
+
+## Step 30–32: Routing & Navigation
+
+### Step 30: Routing & Navigation
+- Configure routes & targets
+- URL-based navigation
+
+### Step 31: Routes with Parameters
+- Pass data via URL
+- Deep linking
+- Element binding with routes
+
+### Step 32: Routing Back & History
+- Browser history handling
+- Safe back navigation
+- Deep link fallback
+
+---
+
+## Step 33–34: Advanced UI
+
+### Step 33: Custom Controls
+- Create reusable UI5 controls
+- Extend `sap.ui.core.Control`
+- Renderer & metadata
+
+### Step 34: Responsiveness
+- Mobile-first design
+- Responsive layouts
+- `sap.m` controls
+- Device awareness
+
+---
+
+## 🧠 Key Takeaways
+
+- Use **MVC** strictly
+- Prefer **data binding over code**
+- Configure apps via **manifest.json**
+- Use **routing** for navigation
+- Build **responsive, reusable UI**
+
+---
+
+## 📚 Useful Links
+
+- SAPUI5 SDK: https://sapui5.hana.ondemand.com
+- Walkthrough Tutorial:  
+  https://sapui5.hana.ondemand.com/#/topic/3da5f4be63264db99f2e5b04c5e853db
+- SAP Fiori Design Guidelines:  
+  https://experience.sap.com/fiori-design/
+
+---
+
+## ✅ Status
+
+✔ Complete walkthrough covered  
+✔ Interview-ready concepts  
+✔ GitHub-friendly documentation  
+
+---
+
+Happy Learning 🚀  
